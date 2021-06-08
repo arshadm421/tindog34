@@ -1,0 +1,138 @@
+h1 {
+  font-family: "Staatliches";
+  font-size: 3.5rem;
+}
+h2{
+  font-size: 3rem;
+  font-weight: 750;
+}
+h2,h3 {
+  font-family: "Quicksand";
+}
+
+
+.title-section
+{
+  background-color: #30bdf5;
+  color:#fff;
+}
+.navbar{
+  padding-bottom: 6rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3rem;
+}
+.nav-item{
+  padding: 0 15px;
+}
+.nav-link{
+  font-size:1.25rem;
+}
+
+
+body{
+  font-family: "Quicksand";
+}
+.container-fluid
+{
+  padding: 3% 15% ;
+}
+p{
+  color:#505050;
+}
+
+
+.title-image{
+  width: 75%;
+  transform:rotate(-18deg);
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+  font-family: "Staatliches";
+}
+
+
+.features-section{
+  padding: 10% 15%;
+}
+.feature-box{
+  text-align:centre;
+  padding: 5%;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4C68;
+}
+
+
+.testimonial-section{
+  padding: 10% 10% 5%;
+  text-align: center;
+  background-color: #d8daff;
+  color:#fff;
+}
+.testimonial-image{
+ width:10%;
+ border-radius:100%;
+ margin: 20px;
+}
+
+
+.carousal-item{
+  padding : 8% 15%;
+  height:400px;
+}
+.press-section {
+  background-color: #d8daff;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+.pricing-section{
+  padding: 80px;
+  text-align: center;
+}
+.pricing-coloumn{
+  padding:5% 1%;
+}
+
+
+.cta-section{
+  background-color: #30bdf5;
+  color: #fff;
+  padding: 4% 15%;
+  text-align: center;
+}
+.cta-heading{
+  font-family: "Quicksand";
+  font-size: 3.5rem;
+}
+
+
+footer {
+  padding: 10% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 10px 3px;
+}
+
+
+@media (max-width: 1028px){
+  .title-section{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
